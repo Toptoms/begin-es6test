@@ -12,6 +12,33 @@ const bus = {
     equipments: ['sae', 'tft', 'speech']
 }
 
-//3.2 Object.values
+//console.log(bus)
+/*
+for (let element in bus) {
+    console.log(element +bus[element])
+}
+Object.getOwnPropertyNames(bus).forEach(key => {
+    let value = bus[key];
+    console.log(value)
+});*/
 
-console.log(data)
+for (i = 0; i < Object.keys(bus).length; i++) {
+    //let k = Object.keys(bus)[i]
+   // let v = Object.values(bus)[i]
+    console.log(Object.keys(bus)[i],':',Object.values(bus)[i])
+
+}
+
+
+
+/*for (var [k, v] of Object.entries(bus)) {
+    console.log(k + ':' + v)
+}*/
+
+//3.2 Object.value
+
+Object.values(data).forEach(value => {
+    console.log(value.texte)
+})
+
+//console.log(data)
