@@ -1,9 +1,15 @@
 //5-1 Import
 
-import {hello,showError,default as an } from './functions.js'
+import { hello, showError, default as anonyme } from './functions.js'
 
 hello()
 showError('error, stop it !')
-an()
+//anonyme()
 // 5-2 Export
-const [a, b] = [7, 9] 
+import * as arrowF from './math.js'
+const [a, b] = [7, 9]
+console.log(arrowF.sum(a, b))
+console.log(arrowF.sub(a, b))
+console.log(arrowF.multiply(a, b))
+console.log(arrowF.divide(a, b))
+console.log(arrowF.pow(a, b))
