@@ -9,18 +9,18 @@
 3. Remplacez toutes les occurences de `let` par `const`.
 4. Expliquez l'erreur
 5. Corrigez le code en conservant le maximum de valeurs constantes
-reponse: les variable qui sont modifiées ne peuvent pas etre definies par "const"
+6. reponse: les variable qui sont modifiées ne peuvent pas etre definies par "const"
 
 ### Section 2
 1. Remplacez toutes les occurences de `let` par `const`.
 2. Expliquez **l'absence** l'erreur
- reponse: un tableau doit etre declaré par "const" si on ne supprima pas tout son contenu 
+3. reponse: un tableau doit etre declaré par "const" si on ne supprima pas tout son contenu 
 
 ### Section 3
 1. Remplacez toutes les occurences de `let` par `const`.
 2. Expliquez l'erreur
 3. Corrigez le code en conservant le maximum de valeurs constantes
-reponse: un objet doit etre declaré avec "const" si on ne supprime pas tout son contenu
+4. reponse: un objet doit etre declaré avec "const" si on ne supprime pas tout son contenu
 
 **COMMITTEZ VOS CHANGEMENTS 🚢**
 
