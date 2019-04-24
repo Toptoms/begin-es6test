@@ -1,13 +1,13 @@
 //2.1 Fonctions simples
-const sayHello = function() {
+const sayHello = () => {
     console.log('Hello')
 }
 
-const sayMyName = function(first, last) {
+const sayMyName = (first, last) => {
     console.log(first, last)
 }
 
-const sayMyAge = function(age) {
+const sayMyAge = (age) => {
     console.log('You are ' + age + ' years old')
 }
 
@@ -22,13 +22,14 @@ const object = {
     color: 'red',
     shape: 'circle',
     threeDimensions: false,
-    showThis: function() {
+    showThis: function () {
         console.log(this)
     }
 }
-
+/* C'est un bjet qui contient une fonction showThis qui elle meme contient
+un concole.log (this) cerirner permet s'appeller soit meme */
 object.showThis()
-
+// On appelle la focntion shoThis dans l'objet "object"
 //----------------------//
 //2.3 Application
 
@@ -37,12 +38,22 @@ const odile = {
         first: 'Odile',
         last: 'Crok'
     },
+
     age: 23,
-    //sayHello: ...
-    //sayMyName:...
-    //sayMyAge:...
+    
+     sayHello: () => {
+        console.log('Hello')
+    },
+
+    sayMyName: () => {
+        console.log('my name is ' + odile.name.first)
+    },
+
+    sayMyAge:() => {
+        console.log('You are ' + odile.age + ' years old')
+    }
 }
 
-//odile.sayHello()
-//odile.sayMyName()
-//odile.sayMyAge()
+odile.sayHello()
+odile.sayMyName()
+odile.sayMyAge()
