@@ -16,18 +16,18 @@ const bus = {
 
 for (let element in bus) {
     console.log(element +bus[element])
-}
+}/*
 Object.getOwnPropertyNames(bus).forEach(key => {
     let value = bus[key];
     console.log(value)
 });
-
+/*
 for (i = 0; i < Object.keys(bus).length; i++) {
     //let k = Object.keys(bus)[i]
    // let v = Object.values(bus)[i]
     console.log(Object.keys(bus)[i],':',Object.values(bus)[i])
 
-}
+}*/
 
 
 

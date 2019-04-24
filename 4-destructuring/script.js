@@ -5,7 +5,7 @@ console.log(a)
 console.log(b)
 // les elements du tableau sont appelés par rapport a la position des variables 
 
-const {first, last, age} = {first: 'Paul', last: 'Henta', age: 35}
+const { first, last, age } = { first: 'Paul', last: 'Henta', age: 35 }
 console.log(first)
 console.log(last)
 console.log(age)
@@ -13,7 +13,13 @@ console.log(age)
 
 
 //4.2 Application
+for (let element in data) {
+    const { dateDebut, texte, dateFin } = data[element]
+    console.log(dateDebut, texte, dateFin)
+}
+
+/*
 Object.values(data).forEach(value => {
     console.log(value.dateDebut,value.texte,value.dateFin)
 })
-console.log(data)
+console.log(data)*/

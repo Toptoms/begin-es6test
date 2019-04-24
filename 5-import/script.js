@@ -1,9 +1,9 @@
 //5-1 Import
 
-import {hello,showError,default as anonyme } from './functions.js'
+import {hello,showError,default as an } from './functions.js'
 
 hello()
-showError('error man !')
-anonyme()
+showError('error, stop it !')
+an()
 // 5-2 Export
-const [a, b] = [7, 9]
+const [a, b] = [7, 9] 
