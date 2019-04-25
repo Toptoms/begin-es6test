@@ -1,15 +1,15 @@
 //5-1 Import
 
-import { hello, showError, default as anonyme } from './functions.js'
+import { hello, showError, default as lolCat } from './functions.js'
 
 hello()
 showError('error, stop it !')
-//anonyme()
+//lolCat()
 // 5-2 Export
-import * as arrowF from './math.js'
+import * as arrowCal from './math.js'
 const [a, b] = [7, 9]
-console.log(arrowF.sum(a, b))
-console.log(arrowF.sub(a, b))
-console.log(arrowF.multiply(a, b))
-console.log(arrowF.divide(a, b))
-console.log(arrowF.pow(a, b))
+console.log(arrowCal.sum(a, b))
+console.log(arrowCal.sub(a, b))
+console.log(arrowCal.multiply(a, b))
+console.log(arrowCal.divide(a, b))
+console.log(arrowCal.pow(a, b))
